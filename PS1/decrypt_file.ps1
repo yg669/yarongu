@@ -1,52 +1,5 @@
 ﻿Function Unprotect-File
 {
-<#
-.SYNOPSIS 
-Decrypts a file encrypted with Protect-File.
-
-.DESCRIPTION
-Decrypts a file using a provided cryptography key.
-
-.PARAMETER FileName
-File(s) to be decrypted.
-
-.PARAMETER Key
-Cryptography key as a SecureString be used for decryption.
-
-.PARAMETER KeyAsPlainText
-Cryptography key as a String to be used for decryption.
-
-.PARAMETER CipherMode
-Specifies the block cipher mode that was used for encryption.
-
-.PARAMETER PaddingMode
-Specifies the type of padding that was applied when the message data block was shorter than the full number of bytes needed for a cryptographic operation.
-
-.PARAMETER Suffix
-Suffix of the encrypted file to be removed.
-
-.PARAMETER RemoveSource
-Removes the source (encrypted) file after decrypting.
-
-.OUTPUTS
-System.IO.FileInfo. Unprotect-File will return FileInfo with the SourceFile as an added NoteProperty
-
-.EXAMPLE
-Unprotect-File 'C:\secrets.txt.AES' $key
-This example decrypts C:\secrets.txt.AES using the key stored in the variable $key. The decrypted file would remove the default extension of '.AES' and the source (encrypted) file would not be removed.
-
-.EXAMPLE
-Unprotect-File 'C:\secrets.txt.Encrypted' -Algorithm DES -Key $key -Suffix '.Encrypted' -RemoveSource
-This example decrypts C:\secrets.txt.Encrypted using DES and the key stored in the variable $key. The decrypted file would remove the extension of '.Encrypted' and the source (encrypted) file would be removed.
-
-.EXAMPLE
-Get-ChildItem 'C:\Files' -Recurse | Unprotect-File -Algorithm AES -Key $key -RemoveSource
-This example decrypts all of the files under the C:\Files directory using the key stored in the variable $key. The decrypted files would remove the default extension of '.AES' and the source (encrypted) files would be removed.
-
-.NOTES
-Author: Tyler Siegrist
-Date: 9/22/2017
-#>
 [CmdletBinding(DefaultParameterSetName='SecureString')]
 [OutputType([System.IO.FileInfo[]])]
 Param(
