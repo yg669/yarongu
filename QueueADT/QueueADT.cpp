@@ -32,19 +32,6 @@ int main()
         q1.Enqueue(123);
         q1.Enqueue(-1234);
 
-        q1.Dequeue();
-        q1.Dequeue();
-        q1.Dequeue();
-        q1.Dequeue();
-        q1.Dequeue();
-        q1.Dequeue();
-        q1.Dequeue();
-        q1.Dequeue();
-        q1.Dequeue();
-        q1.Dequeue();
-
-
-       
         //while (true)
         //{
         //    if (!q1.isFull())
@@ -67,6 +54,18 @@ int main()
 
         //q2 = q1; //copy q1 contents onto q2 by operator overloading
         //q2.PrintQueue();
+
+
+        q1.Dequeue();
+        q1.Dequeue();
+        q1.Dequeue();
+        q1.Dequeue();
+        q1.Dequeue();
+        q1.Dequeue();
+        q1.Dequeue();
+        q1.Dequeue();
+        q1.Dequeue();
+        q1.Dequeue();
 
         return 0;
     }
