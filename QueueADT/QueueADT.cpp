@@ -49,8 +49,8 @@ int main()
         std::cout << "Back of the Queue holds: " << q1.BackVal() << std::endl;
 
 
-        std::cout << endl; 
-        std::cout << q1.PeekValue(index) << std::endl;
+        //std::cout << endl; 
+        //std::cout << q1.PeekValue(index) << std::endl;
 
         //q2 = q1; //copy q1 contents onto q2 by operator overloading
         //q2.PrintQueue();
