@@ -2,6 +2,7 @@
 // TCPIP_Client.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
+
 #define _WINSOCK_DEPRECATED_NO_WARNINGS
 
 #include <WinSock2.h>
@@ -12,6 +13,7 @@
 #include <string>
 #include <stdexcept>
 #include <vector>
+#include<stdio.h> 
 
 #pragma comment(lib, "Ws2_32.lib")
 
