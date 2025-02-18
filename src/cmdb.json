@@ -1,1 +1,158 @@
-
+[
+    {
+      "Application Name": "MyApp Enterprise",
+      "Version": "2.3.1",
+      "Architecture Type": "Microservices-based, containerized",
+      "Programming Language": {
+        "Backend": "Java (Spring Boot)",
+        "Frontend": "React.js"
+      },
+      "Database": "Azure SQL Database",
+      "Hosting Environment": "Azure Kubernetes Service (AKS), Azure App Services, Azure Storage",
+      "Deployment Model": "Hybrid Cloud (Azure & On-Prem)",
+      "Business Impact Level": "High",
+      "Compliance Requirements": ["GDPR", "HIPAA", "SOC 2"],
+      "Regulatory Impact Assessment (RIA)": "Completed",
+      "Legal Hold Requirements": "No",
+      "GDPR Data Subject Rights Support": "Yes",
+      "Data Classification": "Confidential",
+      "Application Owner": "Cloud Engineering Team",
+      "Asset Owner": "DevOps Team",
+      "Risk Owner": "CISO",
+      "Inherent Risk Score": 85,
+      "Residual Risk Score": 35,
+      "Incident Response Plan": "Yes",
+      "Security Certifications": ["ISO 27001", "SOC 2"],
+      "Threat Intelligence Integration": "Yes",
+      "Security Governance & Compliance Automation": {
+        "Automated Compliance Reporting": "Real-time checks for GDPR, HIPAA, SOC 2, ISO 27001, PCI DSS",
+        "Continuous Security Monitoring (CSM)": "Enabled via Microsoft Defender for Cloud and AWS Security Hub"
+      },
+      "Infrastructure Security Testing": {
+        "Network Security": "Azure DDoS Protection, Azure Firewall",
+        "Vulnerability Scanning": "Qualys, Tenable Nessus",
+        "Internal Network Penetration Testing": "Conducted quarterly",
+        "External Network Penetration Testing": "Conducted bi-annually"
+      },
+      "Application Security Testing": {
+        "SAST": "Checkmarx",
+        "DAST": "OWASP ZAP",
+        "SCA": "Snyk",
+        "SBOM": "CycloneDX",
+        "Dependency Scanning": "GitHub Dependabot",
+        "Container Security": "Aqua Security for Kubernetes",
+        "Web Application Penetration Testing": "Conducted annually",
+        "API Security Testing": "Burp Suite Enterprise"
+      },
+      "Supply Chain Security & Third-Party Risk Management": {
+        "SBOM Risk Rating": "Third-party and open-source dependencies rated for security risk",
+        "Supplier Risk Scoring": "Annually reviewed security risk assessment for all third-party vendors"
+      },
+      "Incident Response & Cyber Resilience": {
+        "Automated Incident Response Workflows": "SOAR-enabled automated response using Azure Sentinel & Splunk Phantom",
+        "Ransomware Readiness Index": "Backups are immutable and stored in an isolated environment"
+      },
+      "Zero Trust Architecture Enhancements": {
+        "Microsegmentation": "Workloads segmented by application tier and least privilege access",
+        "Identity-Based Access Control": "Conditional access based on user/device risk level",
+        "Software-Defined Perimeter (SDP)": "All assets require authentication before network access"
+      },
+      "Adversarial Simulations and Tabletop Exercises": {
+        "Adversarial Attack Simulations (Red Team)": "Conducted annually",
+        "Defensive Readiness (Blue Team)": "Tested quarterly",
+        "Incident Response Tabletop Exercises": "Conducted bi-annually"
+      },
+      "Logging & Monitoring Security": {
+        "SIEM Tool": "Azure Sentinel",
+        "Log Tampering Detection": "Enabled",
+        "Audit Log Retention": "12 months",
+        "Real-Time Alerts": "Integrated with PagerDuty"
+      },
+      "Software & Application Lifecycle Management": {
+        "End-of-Life (EOL) Dates": {
+          "OS": "2026-12-31",
+          "Frameworks": "Spring Boot 2.6 (2025-05-01)"
+        },
+        "Technical Debt Tracking": "Some outdated dependencies flagged for refactoring",
+        "Software Release Strategy": "Canary Releases",
+        "Patch Management Policy": "Patches applied monthly, critical patches within 24 hours"
+      },
+      "Cost & Resource Optimization": {
+        "Cost Breakdown by Service": {
+          "Compute": "$4,500",
+          "Storage": "$2,000",
+          "Networking": "$1,500",
+          "Monitoring & Security": "$2,000"
+        },
+        "Resource Right-Sizing Strategy": "Autoscaling enabled, Reserved Instances for predictable workloads",
+        "Carbon Footprint Tracking": "Estimated annual cloud emissions: 5.4 metric tons CO2"
+      },
+      "Incident & Change Management": {
+        "Incident History & RCA Tracking": "Last incident: API downtime (RCA completed)",
+        "Change Request Logs": "Last change: Database index optimization (approved)",
+        "Rollback Strategies": "Feature flags used for controlled rollback"
+      },
+      "User Access & Privilege Audits": {
+        "RBAC Audit Logs": "Reviewed quarterly",
+        "User and Entity Behavior Analytics (UEBA)": "SIEM anomaly detection enabled",
+        "Inactive User & Service Account Review": "Conducted bi-annually"
+      },
+      "AI & Automation Maturity": {
+        "AI Model Explainability": "Not applicable",
+        "Automation Coverage Metrics": "80% of CI/CD pipelines automated, 60% of security monitoring automated"
+      },
+      "AI/ML Security Risks": {
+        "AI Model Drift Detection": "Automated model retraining every 30 days",
+        "Adversarial AI Attack Protection": "Input validation and adversarial noise detection implemented"
+      },
+      "Cloud Provider Security Controls": {
+        "Data Encryption at Rest": "Enabled (AES-256)",
+        "Data Encryption in Transit": "Enabled (TLS 1.2+)",
+        "Security Posture Monitoring": "Enabled via Microsoft Defender for Cloud"
+      },
+      "Key Security Controls Applied": ["Zero Trust Model", "Multi-Factor Authentication", "Network Segmentation"],
+      "SLA Availability": "99.95%",
+      "SLA Response Time": "1 hour (P1), 4 hours (P2)",
+      "SLA Resolution Time": "4 hours (P1), 24 hours (P2)",
+      "Downtime Tracking": {
+        "Last Downtime Event": "2024-12-10",
+        "Downtime Cause": "Network outage",
+        "Total Downtime in Last 12 Months": "3 hours"
+      },
+      "Support Model": "24/7 On-Call Support",
+      "Escalation Contacts": ["IT Director", "Security Lead"],
+      "Deployment Frequency": "Weekly",
+      "Change Approval Process": "Yes (CAB Approval Required)",
+      "Maintenance Windows": {
+        "Scheduled Downtime": "First Sunday of every month, 2 AM - 4 AM UTC"
+      },
+      "Performance Metrics": {
+        "Response Time (p95)": "250ms",
+        "Transaction Throughput": "1500 requests/sec",
+        "Uptime (Last 12 months)": "99.96%"
+      },
+      "Expected User Growth Rate": "10% per quarter",
+      "Current Utilization": {
+        "CPU": "70%",
+        "Memory": "65%"
+      },
+      "Projected Resource Requirements": {
+        "CPU": "90%",
+        "Memory": "80%",
+        "Storage": "5TB"
+      },
+      "Mean Time Between Failures (MTBF)": "150 days",
+      "Change Failure Rate (CFR)": "2%",
+      "Compliance & Legal": {
+        "Third-Party Vendor Risk Assessments": "Conducted annually",
+        "Data Retention & Destruction Policies": "Logs retained for 12 months, user data deleted after 3 years",
+        "Legal Data Transfer Agreements": "Compliant with GDPR SCCs for cross-border transfers"
+      },
+      "Business Continuity & Disaster Recovery": {
+        "Backup & Restore Testing Frequency": "Monthly",
+        "Alternative Processing Methods": "Manual order processing enabled if primary system fails",
+        "Supply Chain Risk Management": "Critical vendors evaluated for redundancy and failover options"
+      }
+    }
+  ]
+  
