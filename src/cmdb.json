@@ -1,17 +1,39 @@
 [
     {
-      "ApplicationName": "MyApp Enterprise",
+      "AppName": "MyApp Enterprise",
       "Version": "2.3.1",
-      "ArchitectureType": "Microservices-based, containerized",
-      "ProgrammingLanguage": {
-        "Backend": "Java (Spring Boot)",
-        "Frontend": "React.js"
+      "AppFrontEnd": {
+        "UI": "HTML, CSS, and JavaScript, rendering in a browser",
+        "Architecture": "Single Page Application",
+        "FrameWork": "React.js", 
+        "Language": "JavaScript"
       },
-      "Database": "Azure SQL Database",
+      "AppBackEnd": {
+        "Hosting": "Azure Cloud",
+        "Type": "Virtual Machines",
+        "Deployment": "AZure DevOps CI/CD",
+        "Web Server": "Microsoft IIS 10",
+        "Architecture": "Microservices",
+        "FrameWork": "ASP.Net Core", 
+        "Language": "C#",
+        "Database": "Azure SQL Database",
+        "API": "RESTful"
+      },
+      "SourceCodeManagement": {
+        "Name": "MyApp Enterprise",
+        "Repository": "GitHub Enterprise",
+        "URL": "https://github.com/username/MyApplicationRepo",
+        "IssueTrackingTool": "Jira",
+        "CodeReview": "Pull Requests"
+      }, 
       "HostingEnvironment": "Azure Kubernetes Service (AKS), Azure App Services, Azure Storage",
       "DeploymentModel": "Hybrid Cloud (Azure & On-Prem)",
       "BusinessImpactLevel": "High",
-      "ComplianceRequirements": ["GDPR", "HIPAA", "SOC 2"],
+      "ComplianceRequirements": {
+        "Privavy":  "GDPR", 
+        "Health":   "HIPAA", 
+        "Security": "SOC 2"
+      },
       "RegulatoryImpactAssessment": "Completed",
       "LegalHoldRequirements": "No",
       "GDPRDataSubjectRightsSupport": "Yes",
@@ -22,13 +44,17 @@
       "InherentRiskScore": 85,
       "ResidualRiskScore": 35,
       "IncidentResponse Plan": "Yes",
-      "SecurityCertifications": ["ISO 27001", "SOC 2"],
-      "ThreatIntelligenceIntegration": "Yes",
+      "SecurityCertifications": {
+        "Cert1": "ISO 27001:2013", 
+        "Cert2": "SOC 2"
+      },
+      "TIP": "CrowdStrike",
       "SecurityGovernanceComplianceAutomation": {
         "AutomatedComplianceReporting": "Real-time checks for GDPR, HIPAA, SOC 2, ISO 27001, PCI DSS",
         "ContinuousSecurityMonitoring": "Enabled via Microsoft Defender for Cloud and AWS Security Hub"
       },
       "InfrastructureSecurityTesting": {
+        "IaC": "Terraform",
         "NetworkSecurity": "Azure DDoS Protection, Azure Firewall",
         "VulnerabilityScanning": "Qualys, Tenable Nessus",
         "InternalNetworkPenetrationTesting": "Conducted quarterly",
@@ -38,11 +64,12 @@
         "SAST": "Checkmarx",
         "DAST": "OWASP ZAP",
         "SCA": "Snyk",
-        "SBOM": "CycloneDX",
+        "SBOMGenerator": "CycloneDX",
         "DependencyScanning": "GitHub Dependabot",
         "ContainerSecurity": "Aqua Security for Kubernetes",
         "WebApplicationPenetrationTesting": "Conducted annually",
-        "APISecurityTesting": "Burp Suite Enterprise"
+        "APISecurityTesting": "SALT Security",
+        "WAF": "Akamai Kona"
       },
       "SupplyChainSecurityThirdPartyRiskManagement": {
         "SBOMRiskRating": "Third-party and open-source dependencies rated for security risk",
@@ -69,23 +96,11 @@
         "RealTimeAlerts": "Integrated with PagerDuty"
       },
       "SoftwareApplicationLifecycleManagement": {
-        "EndofLifeDates": {
-          "OS": "2026-12-31",
-          "Frameworks": "Spring Boot 2.6 (2025-05-01)"
-        },
+        "OSEnddofLifeDates": "2026-12-31",
+        "FrameworksEnddofLifeDates": "Spring Boot 2.6 (2025-05-01)",
         "TechnicalDebtTracking": "Some outdated dependencies flagged for refactoring",
         "SoftwareReleaseStrategy": "Canary Releases",
         "PatchManagementPolicy": "Patches applied monthly, critical patches within 24 hours"
-      },
-      "CostResourceOptimization": {
-        "CostBreakdownByService": {
-          "Compute": "$4,500",
-          "Storage": "$2,000",
-          "Networking": "$1,500",
-          "MonitoringSecurity": "$2,000"
-        },
-        "ResourceRightSizingStrategy": "Autoscaling enabled, Reserved Instances for predictable workloads",
-        "CarbonFootprintTracking": "Estimated annual cloud emissions: 5.4 metric tons CO2"
       },
       "IncidentChangeManagement": {
         "IncidentHistoryRCATracking": "Last incident: API downtime (RCA completed)",
@@ -110,7 +125,6 @@
         "DataEncryptionInTransit": "Enabled (TLS 1.2+)",
         "SecurityPostureMonitoring": "Enabled via Microsoft Defender for Cloud"
       },
-      "KeySecurityControlsApplied": ["Zero Trust Model", "Multi-Factor Authentication", "Network Segmentation"],
       "SLAAvailability": "99.95%",
       "SLAResponseTime": "1 hour (P1), 4 hours (P2)",
       "SLAResolutionTime": "4 hours (P1), 24 hours (P2)",
@@ -120,7 +134,6 @@
         "TotalDowntimeLast12Months": "3 hours"
       },
       "SupportModel": "24/7 On-Call Support",
-      "EscalationContacts": ["IT Director", "Security Lead"],
       "DeploymentFrequency": "Weekly",
       "ChangeApprovalProcess": "Yes (CAB Approval Required)",
       "MaintenanceWindows": {
@@ -130,16 +143,6 @@
         "ResponseTimeP95": "250ms",
         "TransactionThroughput": "1500 requests/sec",
         "UptimeLast12Months": "99.96%"
-      },
-      "ExpectedUserGrowthRate": "10% per quarter",
-      "CurrentUtilization": {
-        "CPU": "70%",
-        "Memory": "65%"
-      },
-      "ProjectedResourceRequirements": {
-        "CPU": "90%",
-        "Memory": "80%",
-        "Storage": "5TB"
       },
       "MeanTimeBetweenFailures": "150 days",
       "ChangeFailureRate": "2%",
