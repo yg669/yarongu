@@ -10,14 +10,15 @@
       },
       "AppBackEnd": {
         "Hosting": "Azure Cloud",
-        "Type": "Virtual Machines",
-        "Deployment": "AZure DevOps CI/CD",
+        "ComputeInstance": "Virtual Machines",
+        "Deployment": "Azure DevOps CI/CD",
         "Web Server": "Microsoft IIS 10",
         "Architecture": "Microservices",
         "FrameWork": "ASP.Net Core", 
+        "PackagesManager": "NuGet Package Manager",
         "Language": "C#",
         "Database": "Azure SQL Database",
-        "API": "RESTful"
+        "API": "RESTful Endpoints"
       },
       "SourceCodeManagement": {
         "Name": "MyApp Enterprise",
@@ -111,14 +112,6 @@
         "RBACAuditLogs": "Reviewed quarterly",
         "UserEntityBehaviorAnalytic": "SIEM anomaly detection enabled",
         "InactiveUserServiceAccountReview": "Conducted bi-annually"
-      },
-      "AIAutomationMaturity": {
-        "AIModelExplainability": "Not applicable",
-        "AutomationCoverageMetrics": "80% of CI/CD pipelines automated, 60% of security monitoring automated"
-      },
-      "AIMLSecurityRisks": {
-        "AIModelDriftDetection": "Automated model retraining every 30 days",
-        "AdversarialAIAttackProtection": "Input validation and adversarial noise detection implemented"
       },
       "CloudProviderSecurityControls": {
         "DataEncryptionAtRest": "Enabled (AES-256)",
